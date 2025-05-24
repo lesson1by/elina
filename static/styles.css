@@ -101,6 +101,14 @@ body {
     object-fit: contain !important;
 }
 
+.price-card img[alt="Эпиляция верхней губы"],
+.price-card img[alt="Шея"],
+.price-card img[alt="Эпиляция рук полностью"],
+.price-card img[alt="Ноги полностью + руки до локтя + подбородок и верхняя губа"] {
+    object-fit: cover !important;
+    object-position: top !important;
+}
+
 section {
     padding: 4rem 1rem;
     position: relative;
@@ -392,6 +400,13 @@ a.phone-number:hover {
     }
     footer .border-t {
         border-top-width: 1px !important;
+    }
+    .price-card img[alt="Эпиляция верхней губы"],
+    .price-card img[alt="Шея"],
+    .price-card img[alt="Эпиляция рук полностью"],
+    .price-card img[alt="Ноги полностью + руки до локтя + подбородок и верхняя губа"] {
+        object-fit: cover !important;
+        object-position: top !important;
     }
 }
 
