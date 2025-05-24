@@ -94,6 +94,12 @@ body {
     transform: scale(1.05);
 }
 
+.price-card img[alt="Эпиляция рук полностью"],
+.price-card img[alt="Эпиляция верхней губы"] {
+    height: 260px !important;
+    object-fit: cover;
+}
+
 section {
     padding: 4rem 1rem;
     position: relative;
@@ -242,6 +248,10 @@ a.phone-number:hover {
     }
     .price-card img {
         height: 160px;
+    }
+    .price-card img[alt="Эпиляция рук полностью"],
+    .price-card img[alt="Эпиляция верхней губы"] {
+        height: 200px !important;
     }
     .grid {
         grid-template-columns: 1fr;
