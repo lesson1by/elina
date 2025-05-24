@@ -298,6 +298,60 @@ a.phone-number:hover {
         padding: 0.7rem 1.2rem !important;
         font-size: 1rem !important;
     }
+    footer {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    footer .grid {
+        gap: 1.2rem !important;
+    }
+    footer h3 {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    footer p, footer li, footer a {
+        font-size: 0.97rem !important;
+        line-height: 1.3 !important;
+    }
+    footer .space-y-3, footer .space-y-2 {
+        gap: 0.4rem !important;
+    }
+    footer .flex.space-x-3.pt-2 {
+        gap: 0.5rem !important;
+        padding-top: 0.2rem !important;
+    }
+    footer .bg-white.bg-opacity-20 {
+        padding: 0.3rem 0.7rem !important;
+        font-size: 0.95rem !important;
+    }
+    footer .pt-4 {
+        padding-top: 0.7rem !important;
+    }
+    footer .border-t {
+        margin-top: 0.7rem !important;
+    }
+    footer .text-sm {
+        font-size: 0.85rem !important;
+    }
+    footer .text-pink-100 {
+        opacity: 0.8 !important;
+    }
+    footer .inline-flex.items-center {
+        font-size: 0.9rem !important;
+    }
+    footer .text-center {
+        margin-bottom: 0.2rem !important;
+    }
+    footer .space-y-2 {
+        gap: 0.2rem !important;
+    }
+    footer .max-w-6xl {
+        padding-left: 0.2rem !important;
+        padding-right: 0.2rem !important;
+    }
+    footer .border-t {
+        border-top-width: 1px !important;
+    }
 }
 
 /* Десктопные стили (от 769px) */
@@ -384,4 +438,17 @@ html {
     transform: translateY(-2px) scale(1.04);
     box-shadow: 0 6px 16px rgba(213, 63, 140, 0.18);
     background: linear-gradient(to right, #ED64A6, #D53F8C);
+}
+
+/* Исправление для круга с крестиком в противопоказаниях */
+section#contraindications .bg-pink-100.text-pink-600 {
+    border-radius: 9999px !important;
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+    min-width: 1.75rem !important;
+    min-height: 1.75rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    aspect-ratio: 1 / 1 !important;
 }
