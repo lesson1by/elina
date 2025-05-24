@@ -470,3 +470,14 @@ section#contraindications .bg-pink-100.text-pink-600 {
     justify-content: center !important;
     aspect-ratio: 1 / 1 !important;
 }
+
+#price-submenu {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s, opacity 0.3s;
+}
+#price-submenu.show {
+  max-height: 400px;
+  opacity: 1;
+}
