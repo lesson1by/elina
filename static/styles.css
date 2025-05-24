@@ -321,15 +321,31 @@ a.phone-number:hover {
         padding-bottom: 1.5rem !important;
     }
     footer .grid {
-        gap: 1.2rem !important;
+        text-align: center !important;
+        justify-items: center !important;
     }
-    footer h3 {
-        font-size: 1.1rem !important;
-        margin-bottom: 0.5rem !important;
+    footer h3,
+    footer ul,
+    footer p,
+    footer li,
+    footer a {
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
-    footer p, footer li, footer a {
-        font-size: 0.97rem !important;
-        line-height: 1.3 !important;
+    footer ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-left: 0 !important;
+    }
+    footer li {
+        width: 100%;
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
     }
     footer .space-y-3, footer .space-y-2 {
         gap: 0.4rem !important;
